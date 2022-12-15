@@ -14,10 +14,15 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+    "node": "14.x"
+  }
   "scripts": {
-    "start": "react-scripts start",
+    //"start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    //"test": "react-scripts test",
+    "test": "echo \"Error: no test specified\" && exit 1"
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run start\" \"npx nodemon backend/index.js\""
   },
